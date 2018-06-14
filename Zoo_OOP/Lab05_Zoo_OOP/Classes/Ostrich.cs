@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    class Ostrich : PlainAnimal
+    public class Ostrich : PlainAnimal
     {
         public override bool HasStripes { get; set; } = false;
         public override int NumOfLegs { get; set; } = 2;

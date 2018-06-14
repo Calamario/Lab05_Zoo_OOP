@@ -5,13 +5,13 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    class WhiteTiger : Tiger, IMonochrome
+    public class WhiteTiger : Tiger, IMonochrome
     {
         public string EyeColor { get; set; } = "Blue";
 
         public string BlackOrWhite()
         {
-            return "Why not Both?";
+            return "Why Not Both?";
         }
 
         public override string HasCereal()

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    class Dracula : Bats
+    public class Dracula : Bats
     {
         public override string EatsWhat()
         {

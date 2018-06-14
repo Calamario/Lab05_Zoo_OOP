@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    class Rabbit : ForestAnimal
+    public class Rabbit : ForestAnimal
     {
         public override string HasCereal()
         {

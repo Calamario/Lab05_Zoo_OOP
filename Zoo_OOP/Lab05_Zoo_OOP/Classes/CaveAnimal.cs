@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    abstract class CaveAnimal : Animal
+    public abstract class CaveAnimal : Animal
     {
         public override string SleepAt()
         {

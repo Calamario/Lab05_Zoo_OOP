@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    class Deer : ForestAnimal, IGallop
+    public class Deer : ForestAnimal, IGallop
     {
         public bool HasHorns { get; set; } = true;
 

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    class Reindeer : Deer, IFly, IGallop
+    public class Reindeer : Deer, IFly, IGallop
     {
         public bool DoIHasWing { get; set; } = false;
 

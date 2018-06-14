@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    abstract class Bats : CaveAnimal, IFly
+    public abstract class Bats : CaveAnimal, IFly
     {
         public override int NumOfLegs { get; set; } = 2;
 

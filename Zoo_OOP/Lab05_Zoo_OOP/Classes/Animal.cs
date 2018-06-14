@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    abstract class Animal
+    public abstract class Animal
     {
         public abstract int NumOfLegs { get; set; }
 

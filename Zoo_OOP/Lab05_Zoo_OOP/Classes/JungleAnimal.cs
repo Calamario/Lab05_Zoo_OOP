@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    abstract class JungleAnimal : Animal
+    public abstract class JungleAnimal : Animal
     {
         public override bool LovesTrees { get; set; } = true;
 

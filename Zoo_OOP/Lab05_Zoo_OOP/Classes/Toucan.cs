@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    class Toucan : JungleAnimal, IFly
+    public class Toucan : JungleAnimal, IFly
     {
         public override bool HasStripes { get; set; } = false;
 
