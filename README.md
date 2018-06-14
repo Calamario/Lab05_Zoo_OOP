@@ -18,4 +18,4 @@
 * Run the prewritten tests or create your own.
 
 ## What it looks like
-![unit-testing](/Zoo_OOP/Lab05_Zoo_OOP/assets/zoo_and_oop_is_ZOOP.PNG)
+![unit-testing](Zoo_OOP/Lab05_Zoo_OOP/Assests//zoo_and_oop_is_ZOOP.PNG)
