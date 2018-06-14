@@ -4,9 +4,16 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    abstract class Bats : CaveAnimal
+    abstract class Bats : CaveAnimal, IFly
     {
         public override int NumOfLegs { get; set; } = 2;
+
+        public bool DoIHasWing { get; set; } = true;
+
+        public string HowIFly()
+        {
+            return "In The darkness";
+        }
 
         public override string LiveWith()
         {

@@ -10,6 +10,11 @@ namespace Lab05_Zoo_OOP.Classes
 
         public override bool HasStripes { get; set; } = true;
 
+        public override string SleepAt()
+        {
+            return "AM";
+        }
+
         public override string HasCereal()
         {
             string type = "Frosted Flakes";
