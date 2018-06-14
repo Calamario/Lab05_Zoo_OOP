@@ -1,12 +1,18 @@
-﻿using System;
+﻿using Lab05_Zoo_OOP.Interface;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    class WhiteTiger : Tiger
+    public class WhiteTiger : Tiger, IMonochrome
     {
         public string EyeColor { get; set; } = "Blue";
+
+        public string BlackOrWhite()
+        {
+            return "Why Not Both?";
+        }
 
         public override string HasCereal()
         {

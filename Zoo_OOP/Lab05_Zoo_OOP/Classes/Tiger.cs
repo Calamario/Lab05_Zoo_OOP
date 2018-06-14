@@ -4,11 +4,16 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    class Tiger : JungleAnimal
+    public class Tiger : JungleAnimal
     {
         public override int NumOfLegs { get; set; } = 4;
 
         public override bool HasStripes { get; set; } = true;
+
+        public override string SleepAt()
+        {
+            return "AM";
+        }
 
         public override string HasCereal()
         {
