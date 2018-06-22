@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    public class WhiteTiger : Tiger, IMonochrome
+    public class WhiteTiger : Tiger
     {
         public string EyeColor { get; set; } = "Blue";
 

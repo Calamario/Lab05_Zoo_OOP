@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Lab05_Zoo_OOP.Classes
 {
-    public class Zebra : PlainAnimal, IGallop, IMonochrome
+    public class Zebra : PlainAnimal, IGallop
     {
         public override bool HasStripes { get; set; } = true;
 
